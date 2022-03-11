@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+	scroll-padding-top: 1rem;
+	scroll-behavior: smooth;
+	list-style: none;
+	box-sizing: border-box;
+	color:rgb(255, 255, 255);
+	font-family: 'Rubik', sans-serif;
+	text-decoration: none;
+  
+}
+
+.signIn{
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: .5rem ;
+	background-color:white;
+	color:  #04AA6D;
+	font-weight:bolder;
+	cursor: pointer;
+	padding: .8rem 3rem;
+}
+
+.signIn:hover{
+	background-color: #04AA6D;
+    color:white;
+}
+
+.header{
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	z-index: 999;
+	background: #02033d;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 5%;
+}
+
+.header .logo{
+	font-size: 2.5rem;
+	color:var(--black);
+	font-weight: bolder;
+}
+.header .logo span{ 
+	color:rgba(0, 255, 55, 0.774);
+	font-weight: bolder;
+}
+
+
+.header .navbar a{
+	color:var(--black);
+	margin: 0 1rem;
+
+}
+
+.header .navbar :hover{
+    color: #0dfa7c; 
+    font-weight: bold;
+	
+}
+
+
+
+
